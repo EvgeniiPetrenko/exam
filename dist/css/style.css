@@ -719,9 +719,14 @@ a {
   .nav__links:after {
     display: none;
   }
-  .about_item:nth-child(2n) {
+  .top-menu__item {
     display: block;
-    margin: auto;
+    float: none;
+  }
+  .about_item:nth-child(2n) {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
   }
   .approach_picture {
     max-width: calc(340px / 1.5);
@@ -739,6 +744,9 @@ a {
   }
   .approch_section {
     padding: 1.25rem 0 0.9375rem;
+  }
+  .about_item {
+    display: block;
   }
   .form {
     width: 90%;
