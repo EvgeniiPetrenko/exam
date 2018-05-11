@@ -33,11 +33,11 @@ if(openForbotton){
 
 jQuery(document).ready(function() {
     jQuery('.about').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated lightSpeedIn', // Class to add to the elements when they are visible
+        classToAdd: 'visible animated lightSpeedIn',
         offset: 100
     });
     jQuery('.container').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInLeftBig', // Class to add to the elements when they are visible
+        classToAdd: 'visible animated fadeInLeftBig',
         offset: 100
     });
 });

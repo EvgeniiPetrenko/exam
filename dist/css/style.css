@@ -133,7 +133,7 @@ a {
 }
 
 .title_title {
-  margin-bottom: 4.0625rem;
+  margin-bottom: 4.375rem;
   text-align: center;
 }
 
@@ -455,7 +455,7 @@ a {
   padding-top: 1.5625rem;
 }
 
-.with_bottom-line:after {
+.us:after {
   background: #ffffff;
 }
 
@@ -502,8 +502,9 @@ a {
   background-color: #1287bf;
 }
 
-.title_title {
+.title_title_fom {
   margin-bottom: 0.75rem;
+  text-align: center;
 }
 
 .title_header {
