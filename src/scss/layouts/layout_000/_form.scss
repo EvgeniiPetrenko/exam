@@ -1,0 +1,114 @@
+.form_section{
+  padding: rem(100px) 0 rem(110px) 0;
+  color: #ffffff;
+  background-color: #1287bf;
+
+}
+.title_title{
+  margin-bottom: rem(12px);
+}
+.title_header{
+  font-size: 2.25rem;
+}
+.title_text{
+  font-size: 1.25rem;
+}
+.form{
+  position: relative;
+  width: 67%;
+  margin: auto;
+  padding: rem(50px) rem(50px) rem(66px) rem(50px);
+  border-radius: rem(3px);
+  color: #828282;
+  text-align: center;
+  background-color: #ffffff;
+}
+.form-container{
+  padding-top: rem(30px);}
+.form:before{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    border: rem(30px) solid transparent;
+    border-bottom: rem(30px) solid #ffffff;
+    top: -59px;
+  }
+.form_close-button{
+  position: absolute;
+  right: rem(-16px);
+  top: rem(-22px);
+  border-radius: 50%;
+  width: rem(50px);
+  height: rem(50px);
+  border: rem(2px) solid #ffffff;
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  background: #de2b24;
+  transition: 0.3s;
+}
+.form_close-button:hover{
+  background: lighten( #de2b24, 15%);
+}
+
+
+.button-red{
+display: inline-block;
+  border: none;
+border-radius: 3px;
+padding: rem(15px) rem(30px) ;
+font-family: $LatoFont;
+  font-size: 1rem;
+font-weight: 700;
+  text-transform: uppercase;
+text-decoration: none;
+background: #de2b24;
+color: white;
+transition: 0.3s;
+}
+.button-red:hover{
+  background: lighten(#de2b24, 15%);
+}
+.form_fields{
+  margin-bottom: rem(36px);
+}
+.form_input{
+  width: 76%;
+  display: block;
+  margin: rem(20px) auto rem(12px) auto;
+  padding: rem(18px) rem(20px);
+  border: 1px solid #d8d8d8;
+  border-radius: rem(3px);
+  font-size: 0.875rem ;
+
+}
+.form_fields:focus{
+  box-shadow: 0 0 8px 1px rgba(0,0,0,0.5);
+}
+.btn_down{
+  position: relative;
+  margin: rem(15px) auto rem(20px);
+  width: rem(65px);
+  height: rem(65px);
+  border: rem(4px) solid #ffffff;
+  border-radius: 50%;
+
+}
+.arrow_down{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.fa-chevron-down:first-child{
+  font-size: 2.5rem;
+  border-right: 0;
+  color: #ffffff;
+  margin: auto;
+  padding: 0;
+
+}
+.is-heden{
+  display: none;
+}

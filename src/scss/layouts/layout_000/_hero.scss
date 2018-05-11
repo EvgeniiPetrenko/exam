@@ -1,0 +1,45 @@
+.hero{
+  min-height: rem(59px);
+  padding: rem(174px) 0;
+  text-align: center;
+  color: #ffffff;
+  background: url("#{$i}hero-bg.jpg") center/cover no-repeat;
+
+
+}
+.hero_about-text{
+  font-family: $LatoFont;
+  font-size: 3rem;
+  font-weight: 600;
+
+}
+.hero_title{
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: rem(27px);
+  font-family: $LatoFont;
+  font-weight: 100;
+
+}
+
+
+
+
+
+.button_hero{
+  display: inline-block;
+  border-radius: rem(8px);
+  padding: rem(21px) rem(41px);
+  font-family: $LatoFont;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #f8cd53;
+  color: white;
+  transition: 0.3s;
+}
+.button_hero:hover{
+  background: lighten(#f8cd53, 7%);
+}

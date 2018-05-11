@@ -1,0 +1,65 @@
+.about{
+  padding: rem(99px) 0 rem(105px) 0;
+  text-align: center;
+
+}
+.about_list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap ;
+  margin: 0;
+  padding: 0 rem(50px);
+}
+.about_item{
+  width: 25%;
+}
+.about_header{
+  margin: 0 0 rem(12px);
+  font-size: 1.375rem;
+  font-family: $LatoFont;
+  color: #424242;
+}
+.about_description{
+  margin-top: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #5c5c5c;
+}
+.title_title{
+  margin-bottom: rem(65px);
+  text-align: center;
+
+}
+.title_header{
+  margin: 0;
+  font-size: 2.25rem;
+font-family: $LatoFont;
+  font-weight: 600;
+}
+.title_text{
+  font-size: 1.25rem;
+  font-family: $LatoFont;
+  font-weight: 100;
+}
+.with_bottom-line{
+  position: relative;
+
+}
+.with_bottom-line:after{
+   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  bottom: rem(-16px);
+  width: rem(47px);
+  height: rem(5px);
+  background: #424242;
+}
+.icon{
+  margin: auto auto rem(23px) auto;
+}
+.icon_like,
+.icon_book,
+.icon_messege{
+  margin-bottom: rem(20px);
+}

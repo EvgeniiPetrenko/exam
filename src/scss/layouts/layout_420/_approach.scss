@@ -1,0 +1,24 @@
+.about_item:nth-child(2n){
+
+  display: block;
+  margin: auto;
+
+}
+
+.approach_picture{
+  max-width: calc(340px / 1.5);
+  max-height: calc(236px / 1.5);
+  margin: auto;
+  display: block;
+}
+.approach_text{
+  padding: 0;
+ width: auto;
+  text-align: center;
+}
+.approach_step{
+  display: none;
+}
+.approch_section{
+  padding: rem(20px) 0 rem(15px);
+}
