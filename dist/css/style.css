@@ -724,9 +724,7 @@ a {
     float: none;
   }
   .about_item:nth-child(2n) {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
+    display: block;
   }
   .approach_picture {
     max-width: calc(340px / 1.5);
@@ -747,6 +745,9 @@ a {
   }
   .about_item {
     display: block;
+  }
+  .approach_img {
+    display: none;
   }
   .form {
     width: 90%;
